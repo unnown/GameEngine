@@ -3,7 +3,10 @@
   "name": "rpg-engine",
   "description": "Rpg engine",
   "version": "0.1.0",
-  "keywords": [ "rpg", "mmorpg" ],
+  "keywords": [
+    "rpg",
+    "mmorpg"
+  ],
   "window": {
     "title": "Rpg engine",
     "icon": "link.jpg",
@@ -19,5 +22,8 @@
   },
   "webkit": {
     "plugin": true
+  },
+  "dependencies": {
+    "node-json-db": "^0.7.3"
   }
 }
